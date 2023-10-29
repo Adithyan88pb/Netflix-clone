@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px 5%;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 28px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 16px;
+}
+
+.header {
+  background: none;
+  color: white;
+  border: none;
+
+  margin-right: 16px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav + .nav {
+  margin-left: auto;
+}
+
+.search {
+  margin-left: auto;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
